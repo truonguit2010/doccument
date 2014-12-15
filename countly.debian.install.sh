@@ -55,6 +55,7 @@ pwd
 # the pkg build dialog, or the pkg won't build/validate
 #checkinstall
 #dpkg -i node_*
+#install node.js
 apt-get install curl
 curl -sL https://deb.nodesource.com/setup | bash -
 apt-get install -y nodejs

@@ -36,8 +36,6 @@ apt-get -y install build-essential python-dev || (echo "Failed to install build-
 # install cElementTree (faster XML parser)
 wget -N http://effbot.org/media/downloads/cElementTree-1.0.5-20051216.tar.gz
 tar xzvf cElementTree* && cd cElementTree*
-cd cElementTree*
-pwd
 python setup.py install
 cd ..
 pwd
@@ -55,7 +53,6 @@ pwd
 # the pkg build dialog, or the pkg won't build/validate
 #checkinstall
 #dpkg -i node_*
-#install node.js
 apt-get install curl
 curl -sL https://deb.nodesource.com/setup | bash -
 apt-get install -y nodejs
